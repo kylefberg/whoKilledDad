@@ -72,6 +72,7 @@ footer.page-footer {
   margin: 5px;
   max-width: 400px;
   height: 300px;
+  padding: 20px;
 }
 
 .riders {
@@ -80,6 +81,7 @@ footer.page-footer {
   margin: 5px;
   max-width: 400px;
   height: 306px;
+  padding: 20px;
 }
 
 .wander {
@@ -88,6 +90,11 @@ footer.page-footer {
   margin: 5px;
   max-width: 400px;
   height: 306px;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
 }
 
 h1 {
