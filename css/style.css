@@ -54,6 +54,11 @@ p {
 
 .row {
   margin: 20px;
+  text-align: center;
+}
+
+.kyle {
+  border-radius: 50%;
 }
 
 footer.page-footer {
@@ -97,9 +102,14 @@ footer.page-footer {
   text-align: center;
 }
 
+
 h1 {
   font-weight: 100;
   font-size: 50px;
+}
+
+h2 {
+  color: black;
 }
 
 h5 {
