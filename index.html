@@ -1,186 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Kyle Firstenberg</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="fonts" href="fonts/roboto">
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Kyle Firstenberg</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="fonts" href="fonts/roboto">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="js/elevator.js"></script>
 
-</head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <img id="logo-helmet" src="image/logo.png" alt="">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" class= "scroll.link" data-id="home">Home</a></li>
-        <li><a href="#" class= "scroll.link" data-id="projects">Projects</a></li>
-        <li><a href="#" class= "scroll.link" data-id="about">About</a></li>
-        <li><a href="#" class= "scroll.link" data-id="contact">Contact</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </head>
+  <body id="home">
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container fixed">
+          <img id="logo-helmet" src="image/logo.png" alt="">
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home" class="scroll.link" data-id="home" id="nav-home">Home</a></li>
+            <li><a href="#projects" class="scroll.link" data-id="projects" id="nav-projects">Projects</a></li>
+            <li><a href="#about" class="scroll.link" data-id="about" id="nav-about">About</a></li>
+            <li><a href="#contact" class="scroll.link" data-id="contact" id="nav-contact">Contact</a></li>
+          </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Navbar Link</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
     </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div id="home" class="page-selection">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center white-text text-lighten-2">Kyle Firstenberg</h1>
-          <div class="row center">
-            <h5 class="header col-xs-12 col-sm-12 col-md-12 col-lg-12 bold light">Project Manager | Full Stack Web Developer | Scrum Master</h5>
-          </div>
-          <br /><br />
-        </div>
-      </div>
-      <div class="parallax"><img src="image/city.JPG" alt="Unsplashed background img 1"></div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">assignment</i></h2>
-            <h5 class="center">Project Manager</h5>
-            <p class="light">I have worked in high-level leadership as a project manager overseeing projects ranging
-            from leading major events and coordinating hundreds of volunteers, to overseeing multi-million dollar renovations.
-            </p>
+    <div id="index-banner" class="parallax-container">
+      <div id="home" class="page-selection">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <h1 class="header center white-text text-lighten-2">Kyle Firstenberg</h1>
+            <div class="row center">
+              <h5 class="header col-xs-12 col-sm-12 col-md-12 col-lg-12 bold light">Project Manager | Full Stack Web Developer | Scrum Master</h5>
+            </div>
+            <br /><br />
           </div>
         </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">laptop_mac</i></h2>
-            <h5 class="center">Full Stack Web Developer</h5>
-            <p class="light">As a full stack web developer, I have built several full CRUD apps along with games and
-            single page applications. Please see below for a few examples of my work.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">people_outline</i></h2>
-            <h5 class="center">Scrum Master</h5>
-            <p class="light">As a Scrum Master, I enjoy the responsibility of coaching a team while maintaining a
-            high-level view of the project. I enjoy using the Agile Method and leading standups to make sure the
-            team is working efficiently and productively.
-            </p>
-          </div>
-        </div>
+        <div class="parallax"><img src="image/city.JPG" alt="Unsplashed background img 1"></div>
       </div>
     </div>
-  </div>
 
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">people_outline</i></h2>
+              <h5 class="center">Scrum Master</h5>
+              <p class="light">As a Scrum Master, I enjoy the responsibility of coaching a team while maintaining a
+              high-level view of the project. I enjoy using the Agile Method and leading standups to make sure the
+              team is working efficiently and productively.
+              </p>
+            </div>
+          </div>
 
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">laptop_mac</i></h2>
+              <h5 class="center">Full Stack Web Developer</h5>
+              <p class="light">As a full stack web developer, I have built several full CRUD apps along with games and
+              single page applications. Please see below for a few examples of my work.
+              </p>
+            </div>
+          </div>
 
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">assignment</i></h2>
+              <h5 class="center">Project Manager</h5>
+              <p class="light">I have worked in high-level leadership as a project manager overseeing projects ranging
+              from leading major events and coordinating hundreds of volunteers, to overseeing multi-million dollar renovations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div id="projects" class="page-selection">
+    <div class="page-selection">
+      <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+              <h2 class="header center black-text col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">My Projects</h2>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="image/river.png" alt="Unsplashed background img 2"></div>
+      </div>
+
+    <div id="projects" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <a target="_blank" href="http://kylefberg.github.io/star_wars_memory/">
+              <div class="col s12 m6 star-wars">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons"></i></h2>
+                </div>
+              </div>
+            </a>
+            <a target="_blank" href="https://secure-bastion-77910.herokuapp.com/">
+              <div class="col s12 m6 riders">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons"></i></h2>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="row">
+            <a target="_blank" href="http://frozen-meadow-17947.herokuapp.com/">
+              <div class="col s12 m6 wander">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons"></i></h2>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h2 class="header center black-text col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">My Projects</h2>
+            <h5 class="header col-xs-12 col-sm-12 col-md-12 col-lg-12 bold light"></h5>
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="image/river.png" alt="Unsplashed background img 2"></div>
+      <div class="parallax"><img src="image/la.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <div class="container">
-      <div class="section">
-        <div class="row">
-          <a target="_blank" href="http://kylefberg.github.io/star_wars_memory/">
-            <div class="col s12 m6 star-wars">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons"></i></h2>
-              </div>
-            </div>
-          </a>
-          <a target="_blank" href="https://secure-bastion-77910.herokuapp.com/">
-            <div class="col s12 m6 riders">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons"></i></h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="row">
-          <a target="_blank" href="http://frozen-meadow-17947.herokuapp.com/">
-            <div class="col s12 m6 wander">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons"></i></h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col-xs-12 col-sm-12 col-md-12 col-lg-12 bold light"></h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="image/la.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer white">
-    <div id="about" class="page-selection">
-      <div id="contact" class="page-selection">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
-              <h5 class="black-text">About</h5>
-              <img class="kyle" src="image/kyle.JPG" alt="">
-              <p class="black-text text-lighten-4">I am a full stack web developer who
-              has built several applications as well as backend frameworks in Ruby, Rails and MEAN stack.
-              When I am not creating amazing sites, I am enjoying my family or riding motorcycles.
-              </p>
-            </div>
-            <div class="contact">
+    <footer class="page-footer white">
+      <div id="about" class="page-selection">
+        <div id="contact" class="page-selection">
+          <div class="container">
+            <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
-                <h5 class="black-text">Want to reach me?</h5>
-                <div class="row">
-                  <a href="mailto:kylefberg@me.com"><img src="image/email.png" alt=""></a>
-                  <a target="_blank" class="white-text" href="https://github.com/kylefberg"><img src="image/github.png" alt=""></a>
-                  <a target="_blank" class="white-text" href="https://www.linkedin.com/in/kylefirstenberg"><img src="image/linkedin.png" alt=""></a>
-                  <a target="_blank" class="white-text" href="https://www.facebook.com/kyle.firstenberg"><img src="image/facebook.png" alt=""></a>
-                  <a href="image/kyle_resume.pdf"><img src="image/resume.png" alt=""></a>
+                <h5 class="black-text">About</h5>
+                <img class="kyle" src="image/kyle.JPG" alt="">
+                <p class="black-text text-lighten-4">I am a full stack web developer who
+                has built several applications as well as backend frameworks in Ruby, Rails and MEAN stack.
+                When I am not creating amazing sites, I am enjoying my family or riding motorcycles.
+                </p>
+              </div>
+              <div id="contact" class="contact">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bold">
+                  <h5 class="black-text">Want to reach me?</h5>
+                  <div class="row">
+                    <a href="mailto:kylefberg@me.com"><img src="image/email.png" alt=""></a>
+                    <a target="_blank" class="white-text" href="https://github.com/kylefberg"><img src="image/github.png" alt=""></a>
+                    <a target="_blank" class="white-text" href="https://www.linkedin.com/in/kylefirstenberg"><img src="image/linkedin.png" alt=""></a>
+                    <a target="_blank" class="white-text" href="https://www.facebook.com/kyle.firstenberg"><img src="image/facebook.png" alt=""></a>
+                    <a href="image/kyle_resume.pdf"><img src="image/resume.png" alt=""></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">KYLE FIRSTENBERG</a>
-          </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by <a class="brown-text text-lighten-3" ">KYLE FIRSTENBERG</a>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="js/init.js"></script>
-
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

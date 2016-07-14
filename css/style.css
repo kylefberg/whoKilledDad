@@ -6,13 +6,50 @@
  * Made By MaterializeCSS.com
  */
 
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
 p {
   line-height: 2rem;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+}
+
+h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+footer.page-footer {
+  margin: 0;
 }
 
 .button-collapse {
@@ -29,25 +66,10 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -59,10 +81,6 @@ p {
 
 .kyle {
   border-radius: 50%;
-}
-
-footer.page-footer {
-  margin: 0;
 }
 
 #logo-helmet {
@@ -103,18 +121,5 @@ footer.page-footer {
 }
 
 
-h1 {
-  font-weight: 100;
-  font-size: 50px;
-}
-
-h2 {
-  color: black;
-}
-
-h5 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-}
 
 
