@@ -32,6 +32,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -50,6 +51,12 @@ h5 {
 
 footer.page-footer {
   margin: 0;
+}
+
+.pgame {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 30px;
 }
 
 .button-collapse {
@@ -93,27 +100,37 @@ footer.page-footer {
   background-image: url("../image/star-wars.png");
   background-size: cover;
   margin: 5px;
-  max-width: 400px;
-  height: 300px;
+  max-width: 300px;
+  height: 240px;
   padding: 20px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;
+
 }
 
 .riders {
   background-image: url("../image/riders.jpg");
   background-size: cover;
   margin: 5px;
-  max-width: 400px;
-  height: 306px;
+  max-width: 300px;
+  height: 240px;
   padding: 20px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .wander {
   background-image: url("../image/wander.png");
   background-size: cover;
   margin: 5px;
-  max-width: 400px;
-  height: 306px;
+  max-width: 300px;
+  height: 240px;
   padding: 20px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .contact {
