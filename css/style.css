@@ -6,8 +6,23 @@
  * Made By MaterializeCSS.com
  */
 
+.slider {
+  min-height: 660px;
+}
 
+.photo {
+  min-height: 630px
+}
 
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+  }
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -19,7 +34,7 @@ nav .brand-logo {
     top: 40%;
   }
 
-  #index-banner .section {
+#index-banner .section {
     top: 10%;
   }
 }
@@ -57,15 +72,6 @@ footer.page-footer {
   color: #26a69a;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
 
 .icon-block {
   padding: 0 15px;
@@ -98,54 +104,6 @@ footer.page-footer {
   max-height: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.star-wars {
-  background-image: url("../image/star-wars.png");
-  background-size: cover;
-  margin: 5px;
-  max-width: 425px;
-  height: 240px;
-  padding: 20px;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
-
-.blontourage {
-  background-image: url("../image/blontourage.png");
-  background-size: cover;
-  margin: 5px;
-  max-width: 425px;
-  height: 240px;
-  padding: 20px;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
-
-.riders {
-  background-image: url("../image/riders.jpg");
-  background-size: cover;
-  margin: 5px;
-  max-width: 425px;
-  height: 240px;
-  padding: 20px;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
-
-.wander {
-  background-image: url("../image/wander.png");
-  background-size: cover;
-  margin: 5px;
-  max-width: 425px;
-  height: 240px;
-  padding: 20px;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .contact {
