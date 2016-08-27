@@ -1,10 +1,13 @@
-
 .slider {
   min-height: 660px;
 }
 
 .photo {
   min-height: 630px
+}
+
+.navbar-fixed {
+  opacity: 0.9;
 }
 
 #opacbox {
@@ -21,6 +24,7 @@
   height: auto;
   color: rgba(255,255,255,.9);
 }
+
 .parallax-container .section {
     width: 100%;
   }
@@ -34,8 +38,7 @@ nav .brand-logo {
     position: absolute;
     top: 40%;
   }
-
-#index-banner .section {
+  #index-banner .section {
     top: 10%;
   }
 }
@@ -73,7 +76,6 @@ footer.page-footer {
   color: #26a69a;
 }
 
-
 .icon-block {
   padding: 0 15px;
 }
@@ -83,7 +85,6 @@ footer.page-footer {
 }
 
 .pgame {
-
   margin-top: 20px;
   padding-left: 30px;
 }
@@ -111,6 +112,9 @@ footer.page-footer {
   text-align: center;
 }
 
+.quote {
+  text-align: center;
+}
 
 
 
