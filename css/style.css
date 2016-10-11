@@ -10,6 +10,11 @@
   opacity: 0.9;
 }
 
+.spacer {
+  height: 70px;
+  color: white;
+}
+
 #opacbox {
   margin: 30px;
   background-color: #ffffff;
