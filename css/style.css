@@ -24,7 +24,7 @@
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 650px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -120,6 +120,7 @@ footer.page-footer {
 .quote {
   text-align: center;
 }
+
 
 
 
