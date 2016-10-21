@@ -36,6 +36,8 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
+  font-size: 15px;
+  font-family: 'Josefin Sans';
 }
 
 @media only screen and (max-width : 992px) {
@@ -54,6 +56,10 @@ nav .brand-logo {
   }
 }
 
+body {
+  font-family: 'Josefin Sans';
+}
+
 p {
   line-height: 2rem;
   text-align: center;
@@ -62,14 +68,21 @@ p {
 h1 {
   font-weight: 100;
   font-size: 50px;
+  font-family: 'Josefin Sans' !important;
 }
 
 h2 {
   color: black;
+  font-family: 'Josefin Sans' !important;
+}
+
+h3 {
+  color: black;
+  font-family: 'Josefin Sans' !important;
 }
 
 h5 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans';
   font-weight: 700;
 }
 
@@ -121,6 +134,14 @@ footer.page-footer {
   text-align: center;
 }
 
+#projects {
+  color:black;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-
-
+.galery {
+  min-height: 300px !important;
+  box-shadow: 15px 15px 5px #888888;
+  margin-top: 15px;
+}
