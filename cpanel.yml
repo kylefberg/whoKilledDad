@@ -1,6 +1,2 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/kylefberg/public_html/mysite
-    - /bin/cp * $DEPLOYPATH
+
     
