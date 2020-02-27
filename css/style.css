@@ -234,6 +234,7 @@ footer.page-footer {
 
 
 /*Job responsiveness */
+.jobs {display: flex;}
 
 .view-sixth img {
   transition: all 0.4s ease-in-out 0.5s;
