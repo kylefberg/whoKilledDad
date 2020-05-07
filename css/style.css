@@ -311,9 +311,30 @@ footer.page-footer {
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
+
+.noelle {
+    height: 500px;
+    width: auto;
+}
+
+.glamor {
+    height: 600px;
+    width: auto;
+}
+
+.airForce {
+    height: 600px;
+    width: auto;
+}
+
+.face {
+    height: 500px;
+    width: auto;
+}
+
 .view .mask, .view .content {
-    width: 400px;
-    height: 240px;
+    width: 444px;
+    height: 500px;
     position: absolute;
     overflow: hidden;
     top: 0;
