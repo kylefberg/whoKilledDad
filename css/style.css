@@ -332,6 +332,41 @@ footer.page-footer {
     width: auto;
 }
 
+.arm {
+    height: 500px;
+    width: auto;
+}
+
+.bike {
+    height: 600px;
+    width: auto;
+}
+
+.little {
+    height: 600px;
+    width: auto;
+}
+
+.girls {
+    height: 500px;
+    width: auto;
+}
+
+.rosemary {
+    height: 600px;
+    width: auto;
+}
+
+.rusty {
+    height: 600px;
+    width: auto;
+}
+
+.kid {
+    height: 500px;
+    width: auto;
+}
+
 .view .mask, .view .content {
     width: 444px;
     height: 500px;
