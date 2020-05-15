@@ -2,9 +2,9 @@
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5){
+only screen and (min-device-pixel-ratio: 1.5)
 
-}
+
 
 /*REGULAR PHONES*/
 @media only screen
@@ -42,6 +42,74 @@ only screen and (min-device-pixel-ratio: 1.5){
     overflow: hidden;
     top: 0;
   }
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.kid {
+  grid-column: 1
+  grid-row: 1 / span 2;
+}
+
+.intro {
+  grid-column: 2;
+  grid-row: 1 / span 1;
+  align-content: center;
+}
+
+.little {
+  grid-column: 3;
+  grid-row: 1 / span 1;
+}
+
+.airForce {
+  grid-column: 1;
+  grid-row: 2 / span 1;
+}
+
+.rosemary {
+  grid-column: 3;
+  grid-row: 2 / span 1;
+}
+
+.noelle {
+  grid-column: 1;
+  grid-row: 3 / span 1;
+}
+
+.face {
+  grid-column: 2;
+  grid-row: 3 / span 1;
+}
+
+.girls {
+  grid-column: 3;
+  grid-row: 3 / span 1;
+}
+
+.arm {
+  grid-column: 1;
+  grid-row: 4 / span 1;
+}
+
+.glamor {
+  grid-column: 3;
+  grid-row: 4 / span 1;
+}
+
+.rusty {
+  grid-column: 3;
+  grid-row: 5 / span 1;
+}
+
+.bike {
+  grid-column: 1;
+  grid-row: 5 / span 2;
+}
+
 }
 
 
@@ -65,6 +133,75 @@ only screen and (min-device-pixel-ratio: 1.5){
   color: black;
   text-align: center;
   }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.kid {
+  grid-column: 1
+  grid-row: 1 / span 2;
+}
+
+.intro {
+  grid-column: 2;
+  grid-row: 1 / span 1;
+  align-content: center;
+}
+
+.little {
+  grid-column: 3;
+  grid-row: 1 / span 1;
+}
+
+.airForce {
+  grid-column: 1;
+  grid-row: 2 / span 1;
+}
+
+.rosemary {
+  grid-column: 3;
+  grid-row: 2 / span 1;
+}
+
+.noelle {
+  grid-column: 1;
+  grid-row: 3 / span 1;
+}
+
+.face {
+  grid-column: 2;
+  grid-row: 3 / span 1;
+}
+
+.girls {
+  grid-column: 3;
+  grid-row: 3 / span 1;
+}
+
+.arm {
+  grid-column: 1;
+  grid-row: 4 / span 1;
+}
+
+.glamor {
+  grid-column: 3;
+  grid-row: 4 / span 1;
+}
+
+.rusty {
+  grid-column: 3;
+  grid-row: 5 / span 1;
+}
+
+.bike {
+  grid-column: 1;
+  grid-row: 5 / span 2;
+}
 }
 
 
@@ -75,7 +212,13 @@ only screen and (min-device-pixel-ratio: 1.5){
     width: 100%;
     align-content: center;
     }
-  }
+
+
+
+
+.intro {
+  text-align: center;
+}
 
 .slider {
   min-height: 660px;
@@ -181,9 +324,6 @@ footer.page-footer {
   text-align: left;
 }
 
-.kyle {
-  border-radius: 50%;
-}
 
 #logo-helmet {
   max-height: 50px;
@@ -195,20 +335,11 @@ footer.page-footer {
   text-align: center;
 }
 
-.quote {
-  text-align: center;
-}
 
 #projects {
   color:black;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
-}
-
-.galery {
-  min-height: 300px;
-  box-shadow: 15px 15px 5px #888888;
-  margin-top: 15px;
 }
 
 
@@ -219,86 +350,15 @@ footer.page-footer {
   margin: 0;
   padding: 0;
 }
-
-.joinin {
-  position: relative;
-  border: 1px solid #333;
-  margin: 2%;
-  overflow: hidden;
-  width: 250px;
-  height: 250px;
-}
-
-.joinin img {
-  max-width: 100%;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.joinin:hover img {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  background: url(http://www.blontourage.net);
-  pointer-events: auto;
-}
+  }
 
 
 
-/*Job responsiveness */
-.jobs {display: flex;}
 
-.view-sixth img {
-  transition: all 0.4s ease-in-out 0.5s;
-}
-.view-sixth .mask{
-  background-color: rgba(146,96,91,0.5);
-  opacity:0;
-  transition: all 0.3s ease-in 0.4s;
-}
-.view-sixth h2{
-  opacity:0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background: transparent;
-    margin: 20px 40px 0px 40px;
-    transform: scale(10);
-    transition: all 0.3s ease-in-out 0.1s;
-}
-.view-sixth p {
-  opacity:0;
-    transform: scale(10);
-  transition: all 0.3s ease-in-out 0.2s;
-}
-.view-sixth a.info {
-  opacity:0;
-    transform: translateY(100px);
-  transition: all 0.3s ease-in-out 0.1s;
-}
-.view-sixth:hover .mask {
-  opacity:1;
-  transition-delay: 0s;
-}
-.view-sixth:hover img {
-  transition-delay: 0s;
-}
-.view-sixth:hover h2 {
-  opacity: 1;
-    transform: scale(1);
-  transition-delay: 0.1s;
-}
-.view-sixth:hover p {
-  opacity:1;
-    transform: scale(1);
-  transition-delay: 0.2s;
-}
-.view-sixth:hover a.info {
-  opacity:1;
-    transform: translateY(0px);
-  transition-delay: 0.3s;
-}
 
-.view {
+
+
+/*.view {
     width: 600px;
     height: 440px;
     margin: 0px;
@@ -310,9 +370,9 @@ footer.page-footer {
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
-}
+}*/
 
-.noelle {
+/*.noelle {
     height: 500px;
     width: auto;
 }
@@ -365,47 +425,6 @@ footer.page-footer {
 .kid {
     height: 500px;
     width: auto;
-}
+}*/
 
-.view .mask, .view .content {
-    width: 444px;
-    height: 500px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-}
-.view img {
-    display: block;
-    position: relative
-}
-.view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
-}
-.view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
-    text-align: center
-}
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-}
-.view a.info:hover {
-    box-shadow: 0 0 5px #000
-}
+
